@@ -1,0 +1,1 @@
+This is file 2.\nSecond line of file 2.
