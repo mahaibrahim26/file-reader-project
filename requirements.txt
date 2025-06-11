@@ -1,1 +1,2 @@
-matplotlib\npytest
+matplotlib
+pytest
