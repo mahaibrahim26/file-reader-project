@@ -19,6 +19,7 @@ Makefile for test automation
 
 ```bash
 # activate virtual environment
+python -m venv venv
 venv\Scripts\activate
 
 # run main file
