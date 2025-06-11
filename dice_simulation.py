@@ -1,6 +1,8 @@
 import random
 import matplotlib.pyplot as plt
 from collections import defaultdict
+plt.switch_backend('tkagg')
+
 
 # Dice roll generator
 def dice_roll_generator(n):
@@ -27,3 +29,5 @@ def simulate_and_plot(n_rolls, seed=40):
     plt.grid(axis='y', linestyle='--', alpha=0.5)
     plt.tight_layout()
     plt.show()
+    plt.savefig(f"dice_rolls_{n_rolls}.png")
+    print(f"Saved: dice_rolls_{n_rolls}.png")
