@@ -1,1 +1,2 @@
-This is file 1.\nSecond line of file 1.
+Code like the world depends on it 
+because someday, it will.

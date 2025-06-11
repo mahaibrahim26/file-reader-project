@@ -1,1 +1,2 @@
-This is file 2.\nSecond line of file 2.
+This is file 2
+Second line of file 2.
