@@ -1,7 +1,8 @@
 import random
-import matplotlib.pyplot as plt
+import matplotlib # type: ignore
+import matplotlib.pyplot as plt # type: ignore
+
 from collections import defaultdict
-plt.switch_backend('tkagg')
 
 
 # Dice roll generator
